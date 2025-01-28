@@ -1,114 +1,66 @@
+/* styles.css */
 body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;
-    color: #333;
-}
-
-.container {
-    width: 80%;
-    margin: auto;
-    overflow: hidden;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f9;
+  color: #333;
 }
 
 header {
-    background: #333;
-    color: #fff;
-    padding-top: 30px;
-    min-height: 70px;
-    border-bottom: #77cc6d 3px solid;
+  background-color: #4CAF50;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
 }
 
 header h1 {
-    text-align: center;
-    margin: 0;
-    font-size: 2.5em;
+  margin: 0;
 }
 
-header p {
-    text-align: center;
-    margin-top: 10px;
-    font-style: italic;
+header .contact-info a {
+  color: white;
+  margin-right: 10px;
+  text-decoration: none;
 }
 
-nav {
-    display: flex;
-    justify-content: center;
-    padding: 10px 0;
-    background: #444;
+header .contact-info p {
+  margin: 5px 0;
 }
 
-nav a {
-    color: #fff;
-    padding: 10px 20px;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-weight: bold;
-    letter-spacing: 1px;
+.container {
+  width: 80%;
+  margin: 0 auto;
 }
 
-nav a:hover {
-    background: #555;
-    transition: 0.3s ease;
+main {
+  padding: 20px;
 }
 
-.section {
-    padding: 20px 0;
+section {
+  margin-bottom: 30px;
 }
 
-h2 {
-    text-align: center;
-    font-size: 2em;
-    color: #333;
-    margin-bottom: 20px;
-    position: relative;
+section h2 {
+  border-bottom: 2px solid #4CAF50;
+  padding-bottom: 5px;
+  margin-bottom: 15px;
 }
 
-h2::after {
-    content: '';
-    width: 100px;
-    height: 3px;
-    background: #77cc6d;
-    display: block;
-    margin: 10px auto;
-}
-
-.bg-light {
-    background-color: #f9f9f9;
-}
-
-.skills, .projects, .education {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-
-.skill, .project, .education-item {
-    background: #fff;
-    margin: 10px;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    flex: 1 1 calc(33% - 20px);
-    box-sizing: border-box;
+ul {
+  list-style-type: square;
+  padding-left: 20px;
 }
 
 footer {
-    background: #333;
-    color: #fff;
-    padding: 20px 0;
-    text-align: center;
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  margin-top: 20px;
 }
 
-footer a {
-    color: #77cc6d;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-footer a:hover {
-    text-decoration: underline;
-    transition: 0.3s ease;
+footer p {
+  margin: 0;
 }
